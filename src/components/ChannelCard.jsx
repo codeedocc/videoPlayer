@@ -16,7 +16,7 @@ const ChannelCard = ({ channelDetail, marginTop }) => {
         width: { xs: '356px', md: '320px' },
         height: '326px',
         margin: 'auto',
-        marginTop,
+        marginTop: marginTop,
       }}
     >
       <Link to={`/channel/${channelDetail?.id?.channelId}`}>
@@ -33,7 +33,7 @@ const ChannelCard = ({ channelDetail, marginTop }) => {
             image={logoChannel}
             alt={channelDetail?.snippet?.title}
             sx={{
-              borderRadius: '50%',
+              borderRadius: '10%',
               height: '180px',
               width: '180px',
               mb: 2,
@@ -53,7 +53,7 @@ const ChannelCard = ({ channelDetail, marginTop }) => {
               {parseInt(
                 channelDetail?.statistics?.subscriberCount
               ).toLocaleString('en-US')}
-              Subscribers
+              &nbsp; Subscribers
             </Typography>
           )}
         </CardContent>
