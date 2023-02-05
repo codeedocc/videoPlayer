@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player'
 import { Typography, Box, Stack } from '@mui/material'
 import CheckCircleIcon from '@mui/icons-material/CheckCircle'
 
-import { Videos } from './'
+import { Videos, Loader } from './'
 import { fetchFromAPI } from '../utils/fetchFromAPI'
 
 const VideoDetail = () => {
@@ -22,7 +22,7 @@ const VideoDetail = () => {
     )
   }, [id])
 
-  if (!videoDetail?.snippet) return <p>Загрузка...</p>
+  if (!videoDetail?.snippet) return <Loader />
 
   const {
     snippet: { title, channelId, channelTitle },
@@ -49,7 +49,7 @@ const VideoDetail = () => {
               py={1}
               px={2}
             >
-              <Link to={`/channel/${channelId}`}>
+              <Link to={`/videoPlayer/channel/${channelId}`}>
                 <Typography
                   variant={{ sm: 'subtitle1', md: 'h6' }}
                   color="#fff"
