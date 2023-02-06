@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/videoPlayer/static/css/main.7064deb2.css",
-    "main.js": "/videoPlayer/static/js/main.a84b0506.js",
+    "main.js": "/videoPlayer/static/js/main.c2857e57.js",
     "static/media/channel-logo.png": "/videoPlayer/static/media/channel-logo.c846f7394d5778e96c1c.png",
     "index.html": "/videoPlayer/index.html",
     "main.7064deb2.css.map": "/videoPlayer/static/css/main.7064deb2.css.map",
-    "main.a84b0506.js.map": "/videoPlayer/static/js/main.a84b0506.js.map"
+    "main.c2857e57.js.map": "/videoPlayer/static/js/main.c2857e57.js.map"
   },
   "entrypoints": [
     "static/css/main.7064deb2.css",
-    "static/js/main.a84b0506.js"
+    "static/js/main.c2857e57.js"
   ]
 }
