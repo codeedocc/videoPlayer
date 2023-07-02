@@ -1,1 +1,1 @@
-Проект: https://codeedocc.github.io/videoPlayer/
+Проект: https://codeedocc.github.io/videoPlayer/ 
